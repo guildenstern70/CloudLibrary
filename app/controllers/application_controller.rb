@@ -6,4 +6,10 @@
 #
 
 class ApplicationController < ActionController::Base
+  layout 'application'
+
+  def environment
+    Rails.env
+  end
+
 end

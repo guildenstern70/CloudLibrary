@@ -1,0 +1,36 @@
+<% content_for :css do %>
+  <!-- CSS Here -->
+  <%= stylesheet_pack_tag 'welcome', media: 'all', 'data-turbolinks-track': 'reload' %>
+<% end %>
+
+<% content_for :content do %>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        &nbsp;
+      </div>
+      <div class="col-10">
+        <div class="container mt-5">
+          <div class="jumbotron border">
+            <h2 class="display-5 jumbotitle text-primary">The CloudLibrary Project</h2>
+            <p class="lead">A comprehensive, easy-to-use Library management system.</p>
+            <hr class="my-4"/>
+            <div>
+              <small class="text-secondary">
+                CloudLibrary v.<%= @app_version %> - Environment: <%= @environment %>
+              </small>
+            </div>
+            <div class="mt-4">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Enter</a>
+              &nbsp;
+              <a class="btn btn-success btn-lg" href="/h2" role="button">More...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        &nbsp;
+      </div>
+    </div>
+  </div>
+<% end %>

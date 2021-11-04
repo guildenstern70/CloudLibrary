@@ -1,0 +1,22 @@
+/*
+ *
+ *  CloudLibrary
+ *  Ruby on Rails Project
+ *  (C) Alessio Saltarin 2021
+ *  MIT License
+ *
+ */
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin: 1rem 0rem 5rem 0rem;
+    background-color: #e3e3e5;
+    border-radius: .3rem;
+    display: block;
+}
+
+.jumbotitle {
+    font-weight: bold;
+}
+
+
