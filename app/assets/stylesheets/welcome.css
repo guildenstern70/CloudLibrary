@@ -9,7 +9,7 @@
 
 .jumbotron {
     padding: 2rem 1rem;
-    margin: 1rem 0rem 5rem 0rem;
+    margin: 1rem 0 5rem 0;
     background-color: #e3e3e5;
     border-radius: .3rem;
     display: block;

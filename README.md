@@ -16,7 +16,33 @@ It uses SQLite as database and Bootstrap as Responsive UI library.
 
     rails server
 
+### Initialize DB
+
+Only if the database does not exits:
+
+    rake db:create
+
+Normally:
+
+    rake db:migrate
+
+Load initial data:
+
+    rake db:seed
+
+Rollback db
+
+    rake db:rollback
+
+When modyfying DB, the migration is usually done manually by changing the file created with:
+
+    rails generate migration [migration_name]
+
+Alternatively the model can be generated with:
+
+    rails generate model [name] [column:type] [column:type] ...
 
 
+    
 
 

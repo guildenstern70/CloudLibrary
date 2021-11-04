@@ -6,6 +6,11 @@
 #
 
 class HomeController < ApplicationController
+
+  def index
+    logger.info('Home Controller - page: home')
+  end
+
 end
 
 
