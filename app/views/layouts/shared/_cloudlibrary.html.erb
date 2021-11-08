@@ -1,0 +1,12 @@
+<% content_for :content do %>
+  <div class="container">
+    <div class="row">
+        <%= render "layouts/shared/header" %>
+    </div>
+    <div class="row">
+      <main class="body">
+        <%= yield :body %>
+      </main>
+    </div>
+  </div>
+<% end %>

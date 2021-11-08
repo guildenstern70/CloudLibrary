@@ -8,7 +8,7 @@
           <%= f.text_field :username, placeholder: 'Your username', label_class: "text-primary mt-4" %>
           <%= f.password_field :password, placeholder: 'Your password', label_class: "text-primary mt-4" %>
           <%= f.submit "Login", class: "btn btn-primary mt-4"%>
-          <input class="btn btn-secondary mt-4" id="cancel" name="cancel" type="button" value="Cancel">
+          <%= link_to "Cancel", { :controller => "welcome", :action => "index" }, class: "btn btn-secondary mt-4", "role" => "button" %>
         <%end%>
       </div>
       <% if @errors %>
