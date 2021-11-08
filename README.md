@@ -7,6 +7,10 @@ CloudLibrary is a comprehensive, easy-to-use Library management system.
 CloudLibrary is an application written in Ruby (3.0.x) on Rails (6.1.x).
 It uses SQLite as database and Bootstrap as Responsive UI library.
 
+## Website color palette
+
+    https://coolors.co/fdffff-b10f2e-570000-280000-de7c5a
+
 ## Webpacker setup
 
     rails assets:clobber  

@@ -10,13 +10,17 @@
 /**
 * 1 - Set SCSS variables below
 */
-$body-bg: #eee;
-$primary: #298629;
-$secondary: #457586;
+$white: #fdffff;
+$upsdell-red: #b10f2e;
+$rosewood: #570000;
+$dark-sienna: #280000;
+$burnt-sienna: #de7c5a;
+
 $theme-colors: (
-        "primary": $primary,
-        "secondary": $secondary,
-        "text-primary": $primary,
+        "primary": $upsdell-red,
+        "secondary": $rosewood,
+        "info": $burnt-sienna,
+        "success": $dark-sienna,
 );
 
 /**

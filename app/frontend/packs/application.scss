@@ -10,8 +10,16 @@
 @import '../css/customized_bootstrap.scss';
 @import "~bootstrap/scss/bootstrap";
 
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
 // Import Bootstrap v5
 @import "~bootstrap/scss/bootstrap";
+
+html, body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 
 
 
