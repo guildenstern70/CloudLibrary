@@ -30,7 +30,7 @@ Normally:
 
     rake db:migrate
 
-Load initial data:
+Load initial data (uses /db/seed.rb):
 
     rake db:seed
 

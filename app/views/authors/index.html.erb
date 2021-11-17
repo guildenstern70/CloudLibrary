@@ -1,0 +1,32 @@
+<% content_for :body do %>
+  <div class="container">
+    <div class="row col">
+      <div class="container mt-2">
+        <h2>Authors in Library</h2>
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Nationality</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @authors.each do |author| %>
+          <tr>
+            <th scope="row"> <%= author.id %></th>
+            <td> <%= author.name %></td>
+            <td> <%= author.surname %></td>
+            <td> <%= author.nationality %></td>
+          </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= render "layouts/shared/cloudlibrary" %>
+

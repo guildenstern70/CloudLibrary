@@ -28,3 +28,22 @@ User.create([
                 password: 'guest'
               }
             ])
+Author.create(
+  [
+    {
+      name: 'Mark',
+      surname: 'Twain',
+      nationality: 'USA'
+    },
+    {
+      name: 'Dante',
+      surname: 'Alighieri',
+      nationality: 'ITA'
+    },
+    {
+      name: 'Marcel',
+      surname: 'Proust',
+      nationality: 'FRA'
+    }
+  ]
+)
