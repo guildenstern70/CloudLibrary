@@ -23,5 +23,6 @@ Rails.application.routes.draw do
   post 'users/create'
   # Authors
   get 'authors/index'
+  get 'authors/:id', to: 'authors#show'
 
 end

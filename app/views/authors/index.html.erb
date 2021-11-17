@@ -10,6 +10,7 @@
             <th scope="col">First</th>
             <th scope="col">Last</th>
             <th scope="col">Nationality</th>
+            <th scope="col">&nbsp;</th>
           </tr>
           </thead>
           <tbody>
@@ -19,6 +20,11 @@
             <td> <%= author.name %></td>
             <td> <%= author.surname %></td>
             <td> <%= author.nationality %></td>
+            <td>
+              <a href="/authors/<%= author.id %>">
+                <i class="bi-card-text" style="font-size: 1em; color: cornflowerblue;"></i>
+              </a>
+            </td>
           </tr>
           <% end %>
           </tbody>
