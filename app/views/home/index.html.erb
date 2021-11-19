@@ -1,9 +1,37 @@
 <% content_for :body do %>
   <div class="container">
-    <div class="row col">
-        <div class="container mt-2">
-          <h2>Welcome to the Cloud Library.</h2>
-        </div>
+    <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <%= image_tag "library-genesis.jpeg", class: "card-img-top" %>
+                <div class="card-body">
+                  <h5 class="card-title">Browse Books</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Browse</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <%= image_tag "borrow.jpeg", class: "card-img-top" %>
+                <div class="card-body">
+                  <h5 class="card-title">Borrow</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Borrow</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <%= image_tag "addbook.png", class: "card-img-top" %>
+                <div class="card-body">
+                  <h5 class="card-title">Add to Library</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add</a>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
   </div>
 <% end %>

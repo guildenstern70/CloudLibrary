@@ -16,7 +16,7 @@
             <label for="nationality" class="form-label">Nationality</label>
             <input type="text" class="form-control" id="nationality" value="<%= @author.nationality %>" readonly>
           </div>
-          <button type="button" class="btn btn-secondary">Back to Authors List</button>
+          <%= link_to "Back to Authors List", { :controller => "authors", :action => "index"} , class: "btn btn-secondary mt-4" %>
         </form>
       </div>
     </div>

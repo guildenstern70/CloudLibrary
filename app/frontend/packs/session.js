@@ -20,7 +20,7 @@ const removeDisabled = function (event) {
 
 (function() {
     usernameInput.addEventListener ("change", removeDisabled, false);
-    passwordInput.addEventListener ("change", removeDisabled, false);
+    passwordInput.addEventListener ("input", removeDisabled, false);
     console.log('Document ready');
 })();
 
